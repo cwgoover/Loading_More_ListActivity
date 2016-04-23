@@ -2,9 +2,9 @@
 
 This is a demo Android application for scrolling to loading more feature
 
-![profile](https://github.com/cwgoover/Loading_More_ListActivity/blob/master/sketch.png)
+![profile](https://github.com/cwgoover/Loading_More_ListActivity/blob/master/sketch.png =250x)
 
-![dialog](https://github.com/cwgoover/Loading_More_ListActivity/blob/master/detail_dialog.png)
+![dialog](https://github.com/cwgoover/Loading_More_ListActivity/blob/master/detail_dialog.png =250x)
 
 
 ## Key Knowledge
