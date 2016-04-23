@@ -1,0 +1,29 @@
+<resources>
+    <dimen name="textview_padding_default">8dp</dimen>
+    <dimen name="list_header_size">16dp</dimen>
+    <dimen name="list_app_icon_size">32dp</dimen>
+    <dimen name="list_item_side_margin">12dp</dimen>
+    <dimen name="list_app_label_text_size">16dp</dimen>
+    <dimen name="list_subtitle_text_size">12dp</dimen>
+    <dimen name="list_subtitle_padding_top">2dp</dimen>
+    <dimen name="detail_item_textview_padding_left">16dp</dimen>
+    <dimen name="detail_item_padding_top">6dp</dimen>
+    <dimen name="detail_item_view_padding">8dp</dimen>
+
+    <!-- Time Report Detail Item -->
+    <dimen name="content_graph_margin">16dp</dimen>
+    <dimen name="graph_materia_bg_size">12dp</dimen>
+    <dimen name="stacked_bar_padding">6dp</dimen>
+    <dimen name="stacked_bar_margin">6dp</dimen>
+    <dimen name="time_point_margin_right">35dp</dimen>
+    <dimen name="graph_descrip_margin">5dp</dimen>
+    <dimen name="graph_total_time_text_size">16sp</dimen>
+    <dimen name="graph_marker_width">4dp</dimen>
+    <dimen name="graph_bar_height">16dp</dimen>
+    <dimen name="graph_detail_bar_height">8dp</dimen>
+    <dimen name="graph_detail_bar_text_width">92dp</dimen>
+    <dimen name="graph_detail_bar_shrink_text_width">73dp</dimen>
+
+    <dimen name="graph_descrip_text_size">12sp</dimen>
+
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Settings: Sort Items -->
+    <string-array name="settings_sort_items">
+        <item>Default</item>
+        <item>Name</item>
+        <item>Firt Boot Time</item>
+        <item>Start Time</item>
+    </string-array>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="list_selector_background">#8a2be2</color><!--紫罗兰蓝色 --> 
+    <color name="gray">#808080</color><!--gray --> 
+    <color name="default_text_color">#333333</color>
+    <color name="list_header_bg">#FF876188</color>
+
+    <!-- Time Report Detail Item -->
+    <color name="detail_item_time_text_color">#BB000000</color>
+    <color name="first_part_color">#99204A87</color><!-- 60% blue -->
+    <color name="last_part_color">#99EDB500</color><!-- 60% yellow -->
+    <color name="graph_single_bar_bg">#33000000</color><!-- 30% dark -->
+    <color name="graph_separator_color">#99000000</color><!-- 60% dark -->
+    <color name="grap_text_color">#ff555555</color>
+    <color name="graph_detail_action_color">#99f4511e</color><!-- 60% orange 600 -->
+
+    <color name="system_accent_color">#ff80CBC4</color><!-- deep teal 200 -->
+    <color name="system_warning_color">#fff4511e</color><!-- deep orange 600 -->
+</resources>

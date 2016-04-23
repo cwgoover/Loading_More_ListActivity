@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_detail"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minWidth="300dp"
+    android:minHeight="200dp"
+    android:layout_gravity="center"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/detail_item_padding_top"
+            android:layout_marginLeft="8dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/zip" />
+
+        <TextView
+            android:id="@+id/app_class"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/icon"
+            android:layout_marginTop="@dimen/textview_padding_default"
+            android:layout_marginLeft="@dimen/detail_item_textview_padding_left"
+            android:textSize="18sp"
+            android:typeface="serif"
+            android:textStyle="bold|italic"
+            android:singleLine="true" />
+
+        <TextView
+            android:id="@+id/app_package"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/icon"
+            android:layout_below="@id/app_class"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="@dimen/detail_item_textview_padding_left"
+            android:textSize="@dimen/graph_descrip_text_size"
+            android:singleLine="true" />
+
+        <TextView
+            android:id="@+id/time_point"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/time_point_margin_right"
+            android:textSize="16sp"
+            android:typeface="serif"
+            android:textStyle="italic"
+            android:singleLine="true" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/detail_item_view_padding"
+        android:layout_marginBottom="@dimen/detail_item_view_padding"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:background="@drawable/dialog_divider_horizontal_holo_dark" />
+
+    <LinearLayout
+        android:id="@+id/time_report"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/content_graph_margin"
+        android:paddingEnd="@dimen/content_graph_margin"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/total_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:textSize="@dimen/graph_total_time_text_size"
+            android:textColor="@color/detail_item_time_text_color" />
+
+        <TextView
+            android:id="@+id/partial_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:layout_marginLeft="2dp"
+            android:textStyle="italic"
+            android:textSize="13sp"
+            android:textColor="@color/detail_item_time_text_color" />
+        </LinearLayout>
+
+        <com.cwgoover.loadingmorelist.view.TimeUsageGraph
+            android:id="@+id/time_graph"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/graph_bar_height"
+            android:layout_marginBottom="@dimen/stacked_bar_padding"
+            android:layout_marginTop="8dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp" >
+
+            <ImageView
+                android:id="@+id/first_part_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/stacked_bar_margin"
+                android:background="@drawable/detail_first_graph_material_bg" />
+
+            <TextView
+                android:id="@+id/first_part_mark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/first_part_icon"
+                android:layout_marginLeft="@dimen/graph_descrip_margin"
+                android:textSize="@dimen/graph_descrip_text_size"
+                android:text="@string/load_response_time" />
+
+            <TextView
+                android:id="@+id/last_part_mark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/stacked_bar_margin"
+                android:textSize="@dimen/graph_descrip_text_size"
+                android:text="@string/load_animation_time" />
+
+            <ImageView
+                android:id="@+id/last_part_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/last_part_mark"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/graph_descrip_margin"
+                android:background="@drawable/detail_last_graph_material_bg" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/detail_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="8dp"
+        android:fadingEdgeLength="10dp" >
+    </ListView>
+</LinearLayout>

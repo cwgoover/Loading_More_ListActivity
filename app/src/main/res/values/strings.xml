@@ -1,0 +1,31 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">LoadingMoreActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_sort">Sort By</string>
+    <string name="menu_print">Print&#8230;</string>
+    <string name="menu_settings">Settings</string>
+    <string name="search_hint">Search Result</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <!-- Settings -->
+    <string name="settings_sort">Sort By</string>
+    <string name="settings_sort_tag">sort_fragment_dialog</string>
+
+    <!-- content -->
+    <string name="loading">Loading&#8230;</string>
+    <string name="boot_flag">First Boot:Yes</string>
+    <string name="boot_time">1290ms</string>
+    <string name="app_launch_item_tag">app_launch_item_dialog</string>
+    
+    <!-- exist in the PerfTrack -->
+    <string name="load_response_time">Response Time</string>
+    <string name="load_animation_time">Animation Time</string>
+
+    <!-- App Launch detail window -->
+    <string name="millisecond_short">ms</string>
+    <string name="launch_activity_detail_total_time">Total: <xliff:g id="data_total" example="1290">%s</xliff:g>ms</string>
+    <string name="launch_activity_detail_partial_time">R: <xliff:g id="data_response">%1$s</xliff:g>ms\t\t\tA: <xliff:g id="data_animation">%2$s</xliff:g>ms</string>
+    <!-- IMPORTANT: print % use %%, otherwise java.util.UnknownFormatConversionException -->
+    <string name="graph_text_percent"><xliff:g id="percent">%s</xliff:g>%%</string>
+</resources>
