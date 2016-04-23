@@ -1,10 +1,9 @@
 # Scroll To Loading More for Android
 
-This is a demo Android application for scrolling to loading more feature
+This is a demo Android application for scrolling to loading more
 
-![profile](https://github.com/cwgoover/Loading_More_ListActivity/blob/master/sketch.png =250x)
-
-![dialog](https://github.com/cwgoover/Loading_More_ListActivity/blob/master/detail_dialog.png =250x)
+<img src="https://github.com/cwgoover/Loading_More_ListActivity/blob/master/sketch.png" alt="" data-canonical-src="https://github.com/cwgoover/Loading_More_ListActivity/blob/master/sketch.png" width="250" height="350" />
+<img src="https://github.com/cwgoover/Loading_More_ListActivity/blob/master/sketch.png" alt="" data-canonical-src="https://github.com/cwgoover/Loading_More_ListActivity/blob/master/detail_dialog.png" width="250" height="350" />
 
 
 ## Key Knowledge
